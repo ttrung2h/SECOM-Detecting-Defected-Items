@@ -72,6 +72,14 @@ performance metric to help investigate this dataset.
     ![SMOTE](under_sampling.png)
     
     * 2.2 SVM for SMOTE
+    
     ![SVM FOR SMOTE](SVMSMOTE.png)
 
-## Link data : https://www.kaggle.com/datasets/paresh2047/uci-semcom
+### XGBOOST
+    
+    The XGBoost or Extreme Gradient Boosting algorithm is a decision tree based machine learning algorithm which uses a process called boosting to help improve performance. Since it’s introduction, it’s become of one of the most effective machine learning algorithms and regularly produces results that outperform most other algorithms, such as logistic regression, the random forest model and regular decision trees.
+
+
+    ![XGBoost](XG-Boost-FINAL-01.png)
+
+Link data : https://www.kaggle.com/datasets/paresh2047/uci-semcom
