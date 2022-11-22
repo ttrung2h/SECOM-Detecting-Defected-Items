@@ -1,6 +1,6 @@
-## Link data : https://www.kaggle.com/datasets/paresh2047/uci-semcom
 ## **Context**
-    Manufacturing process feature selection and categorization
+
+Manufacturing process feature selection and categorization
 
 ## **Content**
 Abstract: Data from a semi-conductor manufacturing process
@@ -64,11 +64,14 @@ performance metric to help investigate this dataset.
 
     ![Under Sampling](under_sampling.png)
 2. Over Sampling
-    2.1 Using SMOTE
-    * SMOTE works by selecting examples that are close in the feature space, drawing a line between the examples in the feature space and drawing a new sample at a point along that line.
+    * 2.1 Using SMOTE
+      * SMOTE works by selecting examples that are close in the feature space, drawing a line between the examples in the feature space and drawing a new sample at a point along that line.
     
-    * Specifically, a random example from the minority class is first chosen. Then k of the nearest neighbors for that example are found (typically k=5). A randomly selected neighbor is chosen and a synthetic example is created at a randomly selected point between the two examples in feature space.
+      * Specifically, a random example from the minority class is first chosen. Then k of the nearest neighbors for that example are found (typically k=5). A randomly selected neighbor is chosen and a synthetic example is created at a randomly selected point between the two examples in feature space.
 
     ![SMOTE](under_sampling.png)
-    2.1 SVM for SMOTE
+    
+    * 2.2 SVM for SMOTE
     ![SVM FOR SMOTE](SVMSMOTE.png)
+
+## Link data : https://www.kaggle.com/datasets/paresh2047/uci-semcom
